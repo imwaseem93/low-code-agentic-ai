@@ -69,19 +69,19 @@ An AI agent is a system that doesn’t just answer a prompt—it **perceives, de
 
 ## Quick examples
 
-* **Inbox triage agent:** reads emails, classifies, drafts replies, schedules meetings.
+* **Inbox triage agent (manager/supervisor agent):** reads emails, classifies, drafts replies, schedules meetings.
 * **Data analyst agent:** pulls Xero/DB data, cleans it, runs queries, builds a CSV/visual, summarizes findings.
 * **DevOps agent:** watches logs, files incidents, rolls back or scales services based on rules.
 
 ## When to use an agent
 
-* You need **automation** across several steps or systems.
+* You need **automation** across several steps or systems i.e. WhatsApp messages, spam filter and reply.
 * The task benefits from **planning** and **feedback** (retrying, verifying).
 * You want **hands-off workflows** with occasional human approval.
 
 ## Trade-offs
 
-* **Pros:** autonomy, speed, integrates many tools, handles long workflows.
+* **Pros:** autonomy (with proper control), speed, integrates many tools, handles long workflows.
 * **Cons:** harder to control/trace, needs guardrails and evals, can incur cost and require careful permissions.
 
 Here’s a clear, beginner-friendly way to see **n8n as an agentic AI platform**—what it is, why it’s useful, and how to start fast.
@@ -120,7 +120,7 @@ Here’s a crisp way to tell them apart and know when to use which.
 
 ### What they are
 
-* **No-code:** Visual app builders for non-developers—think drag-and-drop UI, built-in data, and “recipes” for logic.
+* **No-code:** Visual app builders for non-developers—think drag-and-drop UI, built-in data, and “recipes” for logic... Drag & Drop
 * **Low-code:** Visual + code “escape hatches”—faster than full code, but you can script/extend when needed.
 * **Full-code:** Everything is coded by engineers—maximum control, minimum guardrails, longest runway.
 
